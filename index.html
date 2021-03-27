@@ -6,8 +6,144 @@
     </head>
 
 <body>
+    <p>Hello, my name is Ferdia Fagan.</p>
+    <p>I am a final year CS software engineering student, at UCD college Dublin.
+        This is my final year project.
+    </p>
 
-    <img src="./Help.PNG" alt="Italian Trulli">
+    <h3>In a nutshell: What is this application</h3>
+    <br>
+        This application is composed of two parts:
+        <ol>
+            <li>The browser plugin</li>
+            <li>The native application (Java application)</li>
+        </ol>
+
+        As you search webpages through your browser, often we come across information we want to be able to find later.
+        The "Google effect" is a term coined to refer to how humans are evolving to remember less of the actual
+        information they read, and instead are remembering more where the information was found (and can be retrieved). 
+        This I think personally is great news. I believe that as AI gets better, humans will become more and more in danger 
+        of becoming obsolete by the tools we create... And so, a time will come that humans and machine will combine 
+        (in certain ways that are to abstract currently to explain in a nut shell.).</br>
+        <a href="https://academicearth.org/electives/internet-changing-your-brain/">Here</a> is an interesting paper and video about this "Google effect".</br>
+        </br>
+        I personally am most interested in the combining of humans and machines in respect to how we retrieve 
+        information and remember things.</br>
+        </br>
+        So what this application does is:
+        <ol>
+            <li>
+                Index as your browse the internet (i.e. your history) -> Similar to how Google scrape web pages for information, so you can search things. 
+                Just to put your mind at ease: this application will not steal any of your data. Everything (including the index) 
+                remains on your machine.
+            </li>
+            <li>
+                Keeps track of your search history, so can search through webpages you looked at in the past.
+            </li>
+            <li>
+                Allow users to tag and bookmarks webpages (i.e. annotate webpages with metadata) to then be searched through -> You will see what I mean by this if you watch the demo video. 
+            </li>
+            <li>
+                Allow users to create what I called "auto annotators", which given hostnames will automatically tag webpages as you visit them.
+            </li>
+            <li>
+                Allow users to then search through this index, filtering by dates, tags, bookmarks, 
+                and most importantly a query made of keywords. Then the user can view the results.
+            </li>
+
+        </ol>
+
+        So yeah, thats the nutshell. I think you will get a better picture if you look at the demo video.
+
+        I also just want to re-iterate -> I am not taking ANY of your data. The philosophy behind this project 
+        has a backbone of a belief that users (and society) should gain independance from big tech, 
+        and should not have to contribute YOUR data unless you want to. And you definatly should not be bribed
+        into using a service that exploits your personal data just because the service is free. </br>
+        But, don't get your hopes up. This is a project I built in 3 months as a demo. 
+        The search results will not be accurate. No competitor to Google... yet.
+
+    </p>
+
+    <iframe width="420" height="315"
+    src="https://youtu.be/w3tI_crcCfQ?controls=0">
+    </iframe> 
+
+    <p>
+        ----SURVEY LINK WILL GO HERE----
+    </p>
+
+    <h3>Things to keep in mind when using the application</h3>
+    <ul>
+        <li>You must spell query terms correctly. If you don't, it will not find that word in the index.</li>
+        <li>Don't be afraid to use long queries of many words. 
+            Let me know in the survey how it goes, and if it is very slow, etc.</li>
+        <li>
+            Try out and change the settings and see if you prefer the customization of when to index (described at the end of the video). 
+        </li>
+    </ul>
+    
+    <h3>Requirements:</h3>
+        <ol>
+            <li>Firefox browser (please make sure to use an up-to-date version)</li>
+            <li>Java: Use Java 11</li>
+            <li>OS: Windows (Windows 8 or 10) or Ubuntu (linux)</li>
+        </ol>
+
+    <h3>Ubuntu installation:</h3>
+    <ol>
+        <li>
+            Unzip the application.
+        </li>
+        <li>
+            Then (with sudo) run the installation script located at: </br>
+            KeepLivingInThePast_Application/linux_installer/install_on_linux.sh
+        </li>
+        <li>
+            Then open Firefox browser and take the .xpi file located at: </br>
+            KeepLivingInThePast_Application/browser plugin/keep_living_in_the_past_man-2.0-fx.xpi </br>
+            and drag that file onto your Firefox browser window. Agree to the install 
+            and the plugin will install into your browser
+        </li>
+        <li>
+            Use the application!
+        </li>
+        <li>
+            Then give feedback after maybe a week of use. No need to dedicate time explicitly testing this. 
+            All I would ask is to install the browser plugin, 
+            and when you are doing work/research and browsing using Firefox, use the plugin and see if it 
+            helps you find the information you were looking for. 
+            Then after some use, fill out the survey linked on this webpage.   
+        </li>
+    </ol>
+
+    <h3>Windows installation:</h3>
+    <ol>
+        <li>
+            Unzip the application.
+        </li>
+        <li>
+            Then run this script as ADMINISTRATOR, located at: </br>
+            KeepLivingInThePast_Application/windows_installer/install_on_windows.bat
+        </li>
+        <li>
+            Then open Firefox browser and take the .xpi file located at: </br>
+            KeepLivingInThePast_Application/browser plugin/keep_living_in_the_past_man-2.0-fx.xpi </br>
+            and drag that file onto your Firefox browser window. Agree to the install 
+            and the plugin will install into your browser
+        </li>
+        <li>
+            Use the application!
+        </li>
+        <li>
+            Then give feedback after maybe a week of use. No need to dedicate time explicitly testing this. 
+            All I would ask is to install the browser plugin, 
+            and when you are doing work/research and browsing using Firefox, use the plugin and see if it 
+            helps you find the information you were looking for. 
+            Then after some use, fill out the survey linked on this webpage.   
+        </li>
+
+    </ol>
+
 </body>
 
 </html>
